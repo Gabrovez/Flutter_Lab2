@@ -13,6 +13,8 @@ void main() {
                 Colors.blue,
                 Colors.red,
               ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
            child: Center(
@@ -24,7 +26,34 @@ void main() {
   );
 }
 
+//step 8 
+
+// void main() {
+//   runApp(
+//     MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold (
+//          body: Container(
+//           decoration: BoxDecoration(
+//             gradient: LinearGradient(
+//               colors: [
+//                 Colors.white,
+//                 Colors.blue,
+//                 Colors.red,
+//               ],
+//             ),
+//           ),
+//            child: Center(
+//             child: Text("Hello world!"),
+//                    ),
+//          ),
+//       ),
+//     ),
+//   );
+// }
+
 // шаг 7 
+
 // void main() {
 //   runApp(
 //     MaterialApp(
@@ -52,10 +81,8 @@ void main() {
 //   );
 // }
 
-
 // step 4
 
 // void main() {
 //   runApp(MaterialApp(home: Text("Hello world!")));
 // }
-
