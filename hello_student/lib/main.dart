@@ -16,9 +16,11 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Привет! Меня зовут Гриша.'),
-              Text('Я студент группы ИСП-232.'),
-            ],
+            Image.asset(
+              'assets/vtv.jpg',
+              width: 400,
+              height: 600,
+            ),],
           ),
         ),
       ),
