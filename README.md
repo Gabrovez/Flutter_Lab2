@@ -1,17 +1,35 @@
-# first_flutter_app
+# Flutter Лабораторная работа №2
 
-A new Flutter project.
+Проект, созданный в рамках второй лабораторной работы по знакомству с фреймворком Flutter. Приложение демонстрирует базовые принципы построения UI, работу с виджетами и управление состоянием.
 
-## Getting Started
+## Информация об авторе
 
-This project is a starting point for a Flutter application.
+**Имя:** Катаржин Г.М.
 
-A few resources to get you started if this is your first Flutter project:
+**Группа:** ИСП-232
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Стек и версии
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   **Flutter:** 3.35+
+*   **Dart:** 3.x.x
+*   **Платформа:** Web (Edge)
+*   **IDE:** VS Code
+
+## Скриншот приложения
+
+![Скриншот приложения](img/step9_Katarzhin.png)
+
+## Запуск
+
+1.  Клонировать репозиторий
+2.  Перейти в папку проекта
+3.  Выполнить `flutter pub get`
+4.  Запустить командой `flutter run -d chrome`
+
+## Что изучили
+
+*   Структура Flutter-проекта и назначение основных файлов и папок.
+*   Основы работы с виджетами: `MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`.
+*   Принципы декларативного UI и построение дерева виджетов.
+*   Использование Hot Reload и Hot Restart для быстрой разработки.
+*   Стилизация интерфейса: градиенты, цвета, текстовые стили.
